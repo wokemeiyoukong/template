@@ -1,4 +1,7 @@
-const merge = require("webpack-merge");
++ vue.config.js
+  + 配置 `vant amfe-flexible postcss-px2rem px2rem-loader`
++ ```js
++ const merge = require("webpack-merge");
 const tsImportPluginFactory = require("ts-import-plugin");
 
 module.exports = {

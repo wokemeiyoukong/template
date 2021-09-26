@@ -1,0 +1,93 @@
+{
+  "name": "{{project}}",
+  "version": "0.1.0",
+  "private": true,
+  "author": "{{author}}",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "postcss-px2rem": "^0.3.0",
+    "px2rem-loader": "^0.1.9",
+    "vant": "^3.0.2",
+    "vue": "^3.0.0",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "babel-plugin-import": "^1.13.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0",
+    "ts-import-plugin": "^1.6.6",
+    "typescript": "~3.9.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "@vue/standard",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "space-before-function-paren": 0,
+      "no-trailing-spaces": 0,
+      "padded-blocks": 0,
+      "no-multiple-empty-lines": 0,
+      "@typescript-eslint/no-explicit-any": "off",
+      "no-unused-vars": "off",
+      "max-len": [
+        "error",
+        {
+          "code": 300
+        }
+      ],
+      "exceptAfterSingleLine": 0,
+      "no-return-assign": 0,
+      "no-debugger": 0,
+      "no-useless-return": 0,
+      "no-case-declarations": 0,
+      "intend": [
+        "off",
+        30
+      ],
+      "@typescript-eslint/camelcase": [
+        "off",
+        {
+          "properties": "always"
+        }
+      ]
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
